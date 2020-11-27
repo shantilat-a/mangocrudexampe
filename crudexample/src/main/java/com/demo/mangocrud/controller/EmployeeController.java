@@ -40,9 +40,11 @@ public class EmployeeController {
 		if(emp!=null) {
 			emp.setDesignation(emp.getDesignation());
 			emp.setDesignation(emp.getName());
+		
 			
 		}
 		return emp;
+		
 		
 	
 		
